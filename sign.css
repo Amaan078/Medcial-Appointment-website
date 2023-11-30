@@ -1,0 +1,42 @@
+body {
+    font-family: sans-serif;
+  }
+  h1{
+    text-align: center;
+  }
+  
+  form {
+    width: 500px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+    filter: blur();
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input {
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  body{
+    background-image: url(Downloads/signuptest1.jpg);
+    background-size: cover;
+  }
+
+.field{
+  float: left;
+  padding-right: 50px;
+}

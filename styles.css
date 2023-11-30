@@ -1,0 +1,62 @@
+body{
+  background-image: url(Downloads/doctor.jpg);
+  background-size:cover;
+}
+.login-container {
+  float: right;
+    width:400px;
+    margin:auto;
+    padding: 100px;;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .login-container h1 {
+    text-align: center;
+  }
+  
+  .login-container form {
+    margin: 20px 0;
+  }
+  
+  .login-container input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .login-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .login-container a {
+    text-align: center;
+    color:blue;
+  }
+  
+  .forgot-signup-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .signup-button {
+    float: right;
+  }
+
+  .contact-button {
+    position: fixed;
+    bottom:10px;
+    right:10;
+    z-index: 999;
+    color:blue;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+  }
